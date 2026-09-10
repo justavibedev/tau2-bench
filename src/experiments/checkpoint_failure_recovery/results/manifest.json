@@ -1,0 +1,26 @@
+{
+  "python": "3.12.11",
+  "system": "Darwin",
+  "machine": "arm64",
+  "os_release": "25.6.0",
+  "runner_sha256": "0d246c69ac54461cc8f38951168a0f88c540dfb5b38c132252918aaba4f8148d",
+  "requirements_sha256": "b5664c007c24347bea3bd905091a8abd5d0891793c0a0e9f21f76f388e92a0d8",
+  "revisions": {
+    "baseline": {
+      "commit": "2174a603f6d014ef94473ffa95957f6ce27100db",
+      "checkpoint_sha256": "3c4cf66101ec30a3dc47ad7b3be35a4e542ffcbf85b3ba2bad66ad28064e9ca3",
+      "uv_lock_sha256": "c07d8cd05b139fa8231f8cdbd0c5a1a49ea1e485d0635e04030cf196baaccf39",
+      "cases": 6,
+      "preserved_before_retry": 0,
+      "successful_retries": 6
+    },
+    "fixed": {
+      "commit": "ece0bc2c511a916a4fb399560041def8b8384340",
+      "checkpoint_sha256": "e1d660a7c8c4a204bde594c236ec33c3f3db798812a5f4f3b9cb540af7031674",
+      "uv_lock_sha256": "c07d8cd05b139fa8231f8cdbd0c5a1a49ea1e485d0635e04030cf196baaccf39",
+      "cases": 6,
+      "preserved_before_retry": 6,
+      "successful_retries": 6
+    }
+  }
+}
