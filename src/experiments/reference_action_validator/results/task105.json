@@ -1,0 +1,33 @@
+{
+  "action_id": "106_0",
+  "core_inputs_unchanged": true,
+  "db_bytes_unchanged_after_failure": true,
+  "empty_trajectory_environment_evaluation": {
+    "EnvironmentEvaluator": {
+      "db_match": true,
+      "db_reward": 1.0
+    },
+    "FullDuplexEnvironmentEvaluator": {
+      "db_match": true,
+      "db_reward": 1.0
+    }
+  },
+  "gift_card_balance": "17.0",
+  "in_memory_funded_control_order_status": "exchange requested",
+  "network_attempts": 0,
+  "overall_reward_measured": false,
+  "payment_method_count": 1,
+  "price_pairs": [
+    [
+      "94.8",
+      "101.12"
+    ],
+    [
+      "94.8",
+      "109.58"
+    ]
+  ],
+  "reference_error": "Insufficient gift card balance to pay for the price difference",
+  "required_difference": "21.10",
+  "task_id": "105"
+}

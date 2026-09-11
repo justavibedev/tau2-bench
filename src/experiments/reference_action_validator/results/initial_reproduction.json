@@ -1,0 +1,168 @@
+[
+  {
+    "domain": "airline",
+    "tasks": 50,
+    "actions": 142,
+    "failed_tasks": 0,
+    "failures": []
+  },
+  {
+    "domain": "retail",
+    "tasks": 114,
+    "actions": 550,
+    "failed_tasks": 15,
+    "failures": [
+      {
+        "task": "2",
+        "index": 1,
+        "action_id": "2_1",
+        "name": "get_product_details",
+        "error": "ValueError",
+        "message": "Product not found"
+      },
+      {
+        "task": "3",
+        "index": 1,
+        "action_id": "3_1",
+        "name": "get_product_details",
+        "error": "ValueError",
+        "message": "Product not found"
+      },
+      {
+        "task": "4",
+        "index": 1,
+        "action_id": "4_1",
+        "name": "get_product_details",
+        "error": "ValueError",
+        "message": "Product not found"
+      },
+      {
+        "task": "35",
+        "index": 0,
+        "action_id": "35_0",
+        "name": "find_user_id_by_email",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "37",
+        "index": 0,
+        "action_id": "37_0",
+        "name": "find_user_id_by_email",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "38",
+        "index": 0,
+        "action_id": "38_0",
+        "name": "find_user_id_by_email",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "39",
+        "index": 0,
+        "action_id": "39_0",
+        "name": "find_user_id_by_name_zip",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "46",
+        "index": 1,
+        "action_id": "46_1",
+        "name": "get_order_details",
+        "error": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "task": "46",
+        "index": 2,
+        "action_id": "46_2",
+        "name": "get_order_details",
+        "error": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "task": "47",
+        "index": 1,
+        "action_id": "47_1",
+        "name": "get_order_details",
+        "error": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "task": "47",
+        "index": 2,
+        "action_id": "47_2",
+        "name": "get_order_details",
+        "error": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "task": "54",
+        "index": 0,
+        "action_id": "54_0",
+        "name": "find_user_id_by_email",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "55",
+        "index": 0,
+        "action_id": "55_0",
+        "name": "find_user_id_by_email",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "64",
+        "index": 6,
+        "action_id": "64_6",
+        "name": "exchange_delivered_order_items",
+        "error": "ValueError",
+        "message": "Non-delivered order cannot be exchanged"
+      },
+      {
+        "task": "67",
+        "index": 0,
+        "action_id": "67_0",
+        "name": "find_user_id_by_name_zip",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "67",
+        "index": 1,
+        "action_id": "67_1",
+        "name": "find_user_id_by_name_zip",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "68",
+        "index": 0,
+        "action_id": "68_0",
+        "name": "find_user_id_by_name_zip",
+        "error": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "task": "105",
+        "index": 0,
+        "action_id": "106_0",
+        "name": "exchange_delivered_order_items",
+        "error": "ValueError",
+        "message": "Insufficient gift card balance to pay for the price difference"
+      }
+    ]
+  },
+  {
+    "domain": "telecom",
+    "tasks": 114,
+    "actions": 516,
+    "failed_tasks": 0,
+    "failures": []
+  }
+]

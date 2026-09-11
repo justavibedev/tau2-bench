@@ -1,0 +1,2462 @@
+{
+  "core_inputs_unchanged": true,
+  "domains": {
+    "airline": {
+      "summary": {
+        "attempted_actions": 142,
+        "failed_actions": 0,
+        "failed_tasks": 0,
+        "passed_tasks": 43,
+        "replayed_tasks": 43,
+        "setup_errors": 0,
+        "skipped_no_reference": 7,
+        "tasks": 50
+      },
+      "tasks": [
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "0"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "1"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "2"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "3"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "4"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "5"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "6"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "7"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "8"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "9"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "10"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "11"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "12"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "13"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "14"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "15"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "16"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "17"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "18"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "19"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "20"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "21"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "22"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "23"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "24"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "25"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "26"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "27"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "28"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "29"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "30"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "31"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "32"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "33"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "34"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "35"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "36"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "37"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "38"
+        },
+        {
+          "attempted_actions": 11,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 11,
+          "status": "passed",
+          "task_id": "39"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "40"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "41"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "42"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "43"
+        },
+        {
+          "attempted_actions": 19,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 19,
+          "status": "passed",
+          "task_id": "44"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "45"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "46"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "47"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "48"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "airline",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "49"
+        }
+      ]
+    },
+    "retail": {
+      "summary": {
+        "attempted_actions": 550,
+        "failed_actions": 18,
+        "failed_tasks": 15,
+        "passed_tasks": 97,
+        "replayed_tasks": 112,
+        "setup_errors": 0,
+        "skipped_no_reference": 2,
+        "tasks": 114
+      },
+      "tasks": [
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "0"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "1"
+        },
+        {
+          "attempted_actions": 11,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "2_1",
+              "action_index": 1,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Product not found",
+              "requestor": "assistant",
+              "tool": "get_product_details"
+            }
+          ],
+          "reference_actions": 11,
+          "status": "failed",
+          "task_id": "2"
+        },
+        {
+          "attempted_actions": 12,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "3_1",
+              "action_index": 1,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Product not found",
+              "requestor": "assistant",
+              "tool": "get_product_details"
+            }
+          ],
+          "reference_actions": 12,
+          "status": "failed",
+          "task_id": "3"
+        },
+        {
+          "attempted_actions": 13,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "4_1",
+              "action_index": 1,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Product not found",
+              "requestor": "assistant",
+              "tool": "get_product_details"
+            }
+          ],
+          "reference_actions": 13,
+          "status": "failed",
+          "task_id": "4"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "5"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "6"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "7"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "8"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "9"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "10"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "11"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "12"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "13"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "14"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "15"
+        },
+        {
+          "attempted_actions": 9,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 9,
+          "status": "passed",
+          "task_id": "16"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "17"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "18"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "19"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "20"
+        },
+        {
+          "attempted_actions": 12,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 12,
+          "status": "passed",
+          "task_id": "21"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "22"
+        },
+        {
+          "attempted_actions": 12,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 12,
+          "status": "passed",
+          "task_id": "23"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "24"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "25"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "26"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "27"
+        },
+        {
+          "attempted_actions": 11,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 11,
+          "status": "passed",
+          "task_id": "28"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "29"
+        },
+        {
+          "attempted_actions": 13,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 13,
+          "status": "passed",
+          "task_id": "30"
+        },
+        {
+          "attempted_actions": 12,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 12,
+          "status": "passed",
+          "task_id": "31"
+        },
+        {
+          "attempted_actions": 13,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 13,
+          "status": "passed",
+          "task_id": "32"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "33"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "34"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "35_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_email"
+            }
+          ],
+          "reference_actions": 7,
+          "status": "failed",
+          "task_id": "35"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "36"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "37_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_email"
+            }
+          ],
+          "reference_actions": 4,
+          "status": "failed",
+          "task_id": "37"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "38_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_email"
+            }
+          ],
+          "reference_actions": 4,
+          "status": "failed",
+          "task_id": "38"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "39_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_name_zip"
+            }
+          ],
+          "reference_actions": 5,
+          "status": "failed",
+          "task_id": "39"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "40"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "41"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "42"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "43"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "44"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "45"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "46_1",
+              "action_index": 1,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Order not found",
+              "requestor": "assistant",
+              "tool": "get_order_details"
+            },
+            {
+              "action_id": "46_2",
+              "action_index": 2,
+              "after_prior_failure": true,
+              "error_type": "ValueError",
+              "message": "Order not found",
+              "requestor": "assistant",
+              "tool": "get_order_details"
+            }
+          ],
+          "reference_actions": 7,
+          "status": "failed",
+          "task_id": "46"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "47_1",
+              "action_index": 1,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Order not found",
+              "requestor": "assistant",
+              "tool": "get_order_details"
+            },
+            {
+              "action_id": "47_2",
+              "action_index": 2,
+              "after_prior_failure": true,
+              "error_type": "ValueError",
+              "message": "Order not found",
+              "requestor": "assistant",
+              "tool": "get_order_details"
+            }
+          ],
+          "reference_actions": 7,
+          "status": "failed",
+          "task_id": "47"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "48"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "49"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "50"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "51"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "52"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "53"
+        },
+        {
+          "attempted_actions": 12,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "54_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_email"
+            }
+          ],
+          "reference_actions": 12,
+          "status": "failed",
+          "task_id": "54"
+        },
+        {
+          "attempted_actions": 13,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "55_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_email"
+            }
+          ],
+          "reference_actions": 13,
+          "status": "failed",
+          "task_id": "55"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "56"
+        },
+        {
+          "attempted_actions": 0,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 0,
+          "status": "skipped_no_reference",
+          "task_id": "57"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "58"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "59"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "60"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "61"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "62"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "63"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "64_6",
+              "action_index": 6,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Non-delivered order cannot be exchanged",
+              "requestor": "assistant",
+              "tool": "exchange_delivered_order_items"
+            }
+          ],
+          "reference_actions": 8,
+          "status": "failed",
+          "task_id": "64"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "65"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "66"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "67_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_name_zip"
+            },
+            {
+              "action_id": "67_1",
+              "action_index": 1,
+              "after_prior_failure": true,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_name_zip"
+            }
+          ],
+          "reference_actions": 5,
+          "status": "failed",
+          "task_id": "67"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "68_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "User not found",
+              "requestor": "assistant",
+              "tool": "find_user_id_by_name_zip"
+            }
+          ],
+          "reference_actions": 4,
+          "status": "failed",
+          "task_id": "68"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "69"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "70"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "71"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "72"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "73"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "74"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "75"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "76"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "77"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "78"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "79"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "80"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "81"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "82"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "83"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "84"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "85"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "86"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "87"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "88"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "89"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "90"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "91"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "92"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "93"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "94"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "95"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "96"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "97"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "98"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "99"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "100"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "101"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "102"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "103"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "104"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [
+            {
+              "action_id": "106_0",
+              "action_index": 0,
+              "after_prior_failure": false,
+              "error_type": "ValueError",
+              "message": "Insufficient gift card balance to pay for the price difference",
+              "requestor": "assistant",
+              "tool": "exchange_delivered_order_items"
+            }
+          ],
+          "reference_actions": 1,
+          "status": "failed",
+          "task_id": "105"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "106"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "107"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "108"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "109"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "110"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "111"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "112"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "retail",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "113"
+        }
+      ]
+    },
+    "telecom": {
+      "summary": {
+        "attempted_actions": 516,
+        "failed_actions": 0,
+        "failed_tasks": 0,
+        "passed_tasks": 114,
+        "replayed_tasks": 114,
+        "setup_errors": 0,
+        "skipped_no_reference": 0,
+        "tasks": 114
+      },
+      "tasks": [
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|user_abroad_roaming_enabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]data_saver_mode_on|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]data_saver_mode_on|data_usage_exceeded[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|data_saver_mode_on|data_usage_exceeded[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|user_abroad_roaming_disabled_on[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[mobile_data_issue]airplane_mode_on|bad_network_preference|bad_vpn|data_mode_off|data_saver_mode_on|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|unseat_sim_card[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[service_issue]overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]contract_end_suspension|unseat_sim_card[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|unseat_sim_card[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[service_issue]break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|unseat_sim_card[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|overdue_bill_suspension|unseat_sim_card[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]break_apn_settings|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|lock_sim_card_pin|overdue_bill_suspension|unseat_sim_card[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 1,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 1,
+          "status": "passed",
+          "task_id": "[service_issue]airplane_mode_on|break_apn_settings|contract_end_suspension|lock_sim_card_pin|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mms_issue]break_app_sms_permission|data_mode_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mms_issue]break_app_storage_permission|data_usage_exceeded[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]break_app_both_permissions|data_usage_exceeded[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]break_apn_mms_setting|user_abroad_roaming_enabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 2,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 2,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|break_app_both_permissions[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|data_usage_exceeded[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]break_app_storage_permission|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mms_issue]break_app_both_permissions|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_wifi_calling|data_mode_off|data_usage_exceeded[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 4,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 4,
+          "status": "passed",
+          "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]break_app_sms_permission|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 3,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 3,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_usage_exceeded[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_storage_permission[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]break_apn_mms_setting|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_usage_exceeded[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_storage_permission|unseat_sim_card[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_storage_permission|data_mode_off|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 5,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 5,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|break_app_sms_permission|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|data_mode_off|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 6,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 6,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_both_permissions|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 9,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 9,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_wifi_calling|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 9,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 9,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 9,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 9,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|user_abroad_roaming_enabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 7,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 7,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[mms_issue]bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 8,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 8,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 9,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 9,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 9,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 9,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_enabled_off[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_sms_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:None]"
+        },
+        {
+          "attempted_actions": 10,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 10,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 11,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 11,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_on[PERSONA:Hard]"
+        },
+        {
+          "attempted_actions": 11,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 11,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_storage_permission|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Easy]"
+        },
+        {
+          "attempted_actions": 12,
+          "domain": "telecom",
+          "failures": [],
+          "reference_actions": 12,
+          "status": "passed",
+          "task_id": "[mms_issue]airplane_mode_on|bad_network_preference|bad_wifi_calling|break_apn_mms_setting|break_app_both_permissions|data_mode_off|data_usage_exceeded|unseat_sim_card|user_abroad_roaming_disabled_off[PERSONA:Hard]"
+        }
+      ]
+    }
+  },
+  "exit_code": 1,
+  "network_attempts": 0,
+  "runtime_errors": [],
+  "summary": {
+    "attempted_actions": 1208,
+    "failed_actions": 18,
+    "failed_tasks": 15,
+    "passed_tasks": 254,
+    "replayed_tasks": 269,
+    "setup_errors": 0,
+    "skipped_no_reference": 9,
+    "tasks": 278
+  },
+  "task_split": "base"
+}
