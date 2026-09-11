@@ -1,6 +1,6 @@
-# Offline reference-action validator (local prototype)
+# Offline reference-action validator
 
-This experiment independently reproduces [tau2-bench issue #499](https://github.com/sierra-research/tau2-bench/issues/499), reported by brayans7, and prototypes an authoring-time check. It replays reference actions against fresh environments and reports exceptions without changing the evaluator, task data, or published scores. It has not been submitted upstream or accepted by maintainers.
+This experiment independently reproduces [tau2-bench issue #499](https://github.com/sierra-research/tau2-bench/issues/499), reported by brayans7, and prototypes an authoring-time check. It replays reference actions against fresh environments and reports exceptions without changing the evaluator, task data, or published scores. This is a prototype for discussion on the issue; it is not part of the upstream CLI.
 
 Upstream source inspected: `2174a603f6d014ef94473ffa95957f6ce27100db` (September 10, 2026). The initial replay through the registry and the prototype through direct domain constructors independently produced the same 18 failure locations and messages.
 
@@ -23,26 +23,29 @@ This is only the DB component. We did not invoke the NL-assertion judge, estimat
 
 ## Run
 
-Run from the repository root with Python 3.12 and the project's dev dependencies. The validated environment reused the existing `../tau_bench/.venv`; exact installed versions are in the provenance file. The project core currently imports some optional voice modules, so that environment also contains websockets, scipy and soundfile. No live model keys are needed. No new dependencies were added to the repository.
+Use Python 3.12 and run from the repository root. Install the project's dev dependencies, plus three packages imported by the core's optional voice modules. Package installation needs network access; the experiment itself needs no model API keys. Exact versions used for the recorded results are in `results/provenance.json`.
 
 ```bash
-PYTHONPATH=src ../tau_bench/.venv/bin/python \
+uv sync --extra dev
+uv pip install websockets scipy soundfile
+
+PYTHONPATH=src .venv/bin/python \
   src/experiments/reference_action_validator/validate.py \
   --output-dir /tmp/tau-reference-report
 
-PYTHONPATH=src ../tau_bench/.venv/bin/python \
+PYTHONPATH=src .venv/bin/python \
   src/experiments/reference_action_validator/validate.py \
   --domains airline --output-dir /tmp/tau-airline-report
 
-PYTHONPATH=src ../tau_bench/.venv/bin/python \
+PYTHONPATH=src .venv/bin/python \
   src/experiments/reference_action_validator/reproduce_task105.py \
   --output /tmp/tau-task105.json
 
-PYTHONPATH=src LITELLM_LOCAL_MODEL_COST_MAP=True ../tau_bench/.venv/bin/python \
+PYTHONPATH=src LITELLM_LOCAL_MODEL_COST_MAP=True .venv/bin/python \
   -m pytest src/experiments/reference_action_validator/test_validate.py -q
 ```
 
-With your own prepared environment, replace `../tau_bench/.venv/bin/python` with its Python executable. `PYTHONPATH=src` must point to this checkout; both command-line scripts verify the imported source. The validator pins `TAU2_DATA_DIR` to this checkout's bundled data. Put outputs outside `src/tau2` and `data/tau2/domains` so writing reports cannot alter the inspected inputs.
+The recorded run used an existing Python 3.12 environment; a fresh installation may resolve different versions. If using an existing environment, replace `.venv/bin/python` with its Python executable. `PYTHONPATH=src` must point to this checkout; both command-line scripts verify the imported source. The validator pins `TAU2_DATA_DIR` to this checkout's bundled data. Put outputs outside `src/tau2` and `data/tau2/domains` so writing reports cannot alter the inspected inputs.
 
 `--domains` supports airline, retail and telecom; `--split` supports base (default), train and test. The recorded results use base. This is a standalone experiment, not an installed `tau2 check-data` option.
 
@@ -57,14 +60,14 @@ Exit codes:
 - Each task gets a fresh environment with a copied initial state. Initialization data, initialization actions and message history are replayed with strict state restoration, matching the existing reference setup.
 - Actions run sequentially with their original assistant/user requestor. Like the current evaluator, the diagnostic continues after exceptions; later errors carry `after_prior_failure=true` because they may be consequences of earlier failure. A failing action may partially mutate its environment; the prototype does not roll it back.
 - Python socket connections and DNS are blocked during domain import/replay. The local LiteLLM cost map is selected before import. Both final commands recorded zero network attempts. This guard is an execution check for the supported bundled domains, not a security sandbox for arbitrary plugins or subprocesses.
-- Core Python files, domain input files and dependency files are hashed before and after replay. Recorded inputs were unchanged. Reports contain public synthetic benchmark identifiers, not candidate or employer-private data.
+- Core Python files, domain input files and dependency files are hashed before and after replay. Recorded inputs were unchanged. Reports include the bundled synthetic task identifiers.
 - Successful replay means only that calls did not raise. It does not prove task feasibility, correct policies, valid gold outcomes, or accurate scores. Error-shaped return values are not generically interpreted as exceptions. Initialization replay retains the upstream behavior of skipping read/history calls where applicable.
 - Banking knowledge, voice runs, alternate external datasets, and tau2-bench-Verified are outside this prototype's tested scope. No reference task is rewritten, no exception is suppressed in the benchmark, and no scoring default changes.
 
-## Validation and proposed maintainer discussion
+## Validation and possible follow-up
 
-17 tests cover continued replay, cascading-error labels, setup/loader failures, missing references, isolation, state/requestor forwarding, exit codes, network blocking, actual retail regressions, both task-105 environment evaluators, and successful/failed CLI runs. Repository lint/format checks pass. Raw test output is in the local work record; a full live-API core suite was not needed for these isolated experiment files and is not claimed green.
+17 tests cover continued replay, cascading-error labels, setup/loader failures, missing references, isolation, state/requestor forwarding, exit codes, network blocking, actual retail regressions, both task-105 environment evaluators, and successful/failed CLI runs. Repository lint/format checks pass. The full live-API core suite was not run for this experiment.
 
-A possible follow-up is an opt-in `tau2 check-data --replay-reference-actions` mode. Before integrating it, ask maintainers whether to continue or stop at the first exception, how intentionally failing references should be represented, which domains/splits are supported, and whether an existing failure baseline should gate CI. Data repairs and score/version changes should be reviewed separately. Credit the issue reporter and avoid duplicating any new patch they may open.
+A possible follow-up is an opt-in `tau2 check-data --replay-reference-actions` mode. Open questions include whether to stop on the first exception, how to represent intentionally failing references, and how to handle existing failures in CI. Dataset repairs would be separate changes. This prototype is intended to support the discussion in #499 and can supply tests for an existing patch if the reporter is already working on one.
 
-AI assistance: developed and checked with OpenAI Codex. Local research only; no upstream endorsement is implied.
+Developed and tested with OpenAI Codex assistance.
