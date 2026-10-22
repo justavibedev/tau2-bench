@@ -33,7 +33,7 @@ from tau2.voice.audio_native.tick_result import (
 )
 
 if TYPE_CHECKING:
-    from tau2.voice.audio_native.openai.live_config import LiveConfig
+    from tau2.data_model.live_config import LiveConfig
 
 
 class DiscreteTimeAdapter(ABC):
@@ -389,6 +389,9 @@ def create_adapter(
     cascaded_config: Any = None,
     live_config: Optional["LiveConfig"] = None,
     trace_path: Optional[Path] = None,
+    voice: Optional[str] = None,
+    transcription_language: Optional[str] = None,
+    language: Optional[str] = None,
 ) -> Tuple[DiscreteTimeAdapter, str]:
     """Create a discrete-time adapter for the given provider.
 
@@ -407,6 +410,8 @@ def create_adapter(
         cascaded_config: Configuration for cascaded providers (livekit).
         live_config: Frontend and delegated backend configuration for OpenAI Live.
         trace_path: Optional private protocol trace for OpenAI Live.
+        language: Resolved run language for supported provider hints. OpenAI
+            input transcription retains its explicit transcription_language setting.
 
     Returns:
         Tuple of (adapter, resolved_model).
@@ -414,6 +419,10 @@ def create_adapter(
     Raises:
         ValueError: If the provider is unknown.
     """
+    if voice is not None and provider != "openai":
+        raise ValueError(
+            "voice override currently requires openai; Live uses live_config.voice"
+        )
     # --- Resolve reasoning_effort default ---
     if reasoning_effort is None:
         reasoning_effort = DEFAULT_AUDIO_NATIVE_REASONING_EFFORT.get(provider)
@@ -421,7 +430,7 @@ def create_adapter(
     # --- Resolve model default ---
     if model is None:
         if provider == "livekit":
-            from tau2.voice.audio_native.livekit.config import CascadedConfig
+            from tau2.data_model.cascaded import CascadedConfig
 
             config = cascaded_config or CascadedConfig()
             model = config.llm.model
@@ -438,12 +447,26 @@ def create_adapter(
 
     # --- Construct adapter ---
     adapter: DiscreteTimeAdapter
-    if provider == "openai":
+    if provider == "launa":
+        from tau2.voice.audio_native.launa.discrete_time_adapter import (
+            DiscreteTimeLaunaAdapter,
+        )
+
+        adapter = DiscreteTimeLaunaAdapter(
+            tick_duration_ms=tick_duration_ms,
+            send_audio_instant=send_audio_instant,
+            model=model,
+            reasoning_effort=reasoning_effort,
+            audio_format=audio_format,
+        )
+    elif provider == "openai":
         from tau2.voice.audio_native.openai.discrete_time_adapter import (
             DiscreteTimeOpenAIAdapter,
         )
 
         adapter = DiscreteTimeOpenAIAdapter(
+            voice=voice,
+            transcription_language=transcription_language,
             tick_duration_ms=tick_duration_ms,
             send_audio_instant=send_audio_instant,
             model=model,
@@ -472,6 +495,7 @@ def create_adapter(
         )
 
         adapter = DiscreteTimeGeminiAdapter(
+            language=language,
             tick_duration_ms=tick_duration_ms,
             send_audio_instant=send_audio_instant,
             model=model,
@@ -483,6 +507,7 @@ def create_adapter(
         )
 
         adapter = DiscreteTimeXAIAdapter(
+            language=language,
             tick_duration_ms=tick_duration_ms,
             send_audio_instant=send_audio_instant,
             model=model,
@@ -511,7 +536,7 @@ def create_adapter(
             reasoning_effort=reasoning_effort,
         )
     elif provider == "livekit":
-        from tau2.voice.audio_native.livekit.config import CascadedConfig
+        from tau2.data_model.cascaded import CascadedConfig
         from tau2.voice.audio_native.livekit.discrete_time_adapter import (
             LiveKitCascadedAdapter,
         )

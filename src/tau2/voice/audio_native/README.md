@@ -7,8 +7,9 @@ Full-duplex voice evaluation via provider-specific realtime APIs. Each provider 
 | Provider | Type | API | Model |
 |----------|------|-----|-------|
 | **openai** | Native audio | OpenAI Realtime API | gpt-realtime-1.5 |
-| **gemini** | Native audio | Google Gemini Live | gemini-3.1-flash-live-preview |
-| **xai** | Native audio | xAI Grok Voice Agent | xai-realtime |
+| **openai_live** | Native audio | OpenAI GPT Live | gpt-live-1 |
+| **gemini** | Native audio | Google Gemini Live | gemini-3.8-live-extended-thinking |
+| **xai** | Native audio | xAI Grok Voice Agent | grok-voice-think-fast-2.0 |
 | **nova** | Native audio | Amazon Nova Sonic | amazon.nova-2-sonic-v1:0 |
 | **qwen** | Native audio | Alibaba Qwen Omni | qwen3-omni-flash-realtime |
 | **livekit** | Cascaded (STT→LLM→TTS) | LiveKit + Deepgram + OpenAI | Configurable |
